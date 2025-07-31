@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto - Peter Plant Ornamentales</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/logo.svg" alt="Peter Plant Logo" />
+        <span>Peter Plant Ornamentales</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html" class="active">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1>Contacto</h1>
+    <p>Si deseas más información o quieres realizar un pedido, completa el formulario y nos pondremos en contacto contigo.</p>
+    <form action="https://formspree.io/f/tu-id-aqui" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo" required>
+      <textarea name="message" placeholder="Escribe tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Peter Plant Ornamentales - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
